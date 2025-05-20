@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, #ff69b4, #ffff66);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.banner {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #fff8dc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff69b4;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Login Section */
+.login-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffe6f0;
+  border: 1px solid #ffc0cb;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-section h2 {
+  text-align: center;
+  color: #e91e63;
+}
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.login-section input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-section button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-section button:hover {
+  background-color: #e91e63;
+}
+
+/* Job Cards */
+.job-card {
+  border: 2px solid #ffeb3b;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff3cd;
+}
+
+.job-card h2 {
+  margin-top: 0;
+  color: #ff69b4;
+}
+
+.apply-btn {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #e91e63;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #fff8dc;
+  font-size: 0.9em;
+  color: #888;
+}
